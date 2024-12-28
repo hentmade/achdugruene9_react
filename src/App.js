@@ -1,10 +1,10 @@
-import HelloWorld from "./components/HelloWorld";
+import { Pages } from "./components/pages/Pages";
 
 function App() {
   return (
-    <div className="App">
-      <HelloWorld/>
-    </div>
+    <>
+      <Pages/>
+    </>
   );
 }
 
