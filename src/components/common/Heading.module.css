@@ -1,0 +1,10 @@
+.heading {
+    font-size: 30px;
+    text-align: center;
+
+    background-image: url('../assets/img/common/Pinselstrich_gelb.png');
+    background-position: 50% 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+}

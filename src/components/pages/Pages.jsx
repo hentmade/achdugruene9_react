@@ -8,6 +8,8 @@ import {
 import { Header } from "../common/Header"
 import { Navbar } from "../common/Navbar"
 import { Footer } from "../common/Footer"
+import { Home } from "../home/Home"
+
 
 export const Pages = () => {
   return (
@@ -16,7 +18,7 @@ export const Pages = () => {
             <Navbar/>
             <Header/>
             <Switch>
-                
+              <Route exact path='/' component={Home} />
             </Switch>
             <Footer/>
         </Router>

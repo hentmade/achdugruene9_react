@@ -1,0 +1,26 @@
+html {
+    --G9_dunkelgrün: rgb(19, 102, 50);
+    --G9_hellgrün: rgb(197, 230, 188);
+    --G9_hellgrau: rgb(245,245,245);
+    --G9_gelb: rgb(237,160,39);
+    --G9_schriftart: Candara, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --G9_schriftfarbe: rgb(0,0,0);
+    --G9_schriftgröße: 18px;
+    --G9_navbar_height: 50px;
+ 
+    scroll-behavior: smooth;
+    background-color: var(--G9_hellgrau);
+ }
+
+ body {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--G9_schriftgröße);
+    font-family: var(--G9_schriftart);
+    color: var(--G9_schriftfarbe);
+ }
+ 
+ @media (max-width: 640px) {
+    body {font-size: 16px; }
+ }
