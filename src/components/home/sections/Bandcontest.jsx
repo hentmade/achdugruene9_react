@@ -3,7 +3,7 @@ import { Section } from "../../common/Section"
 
 export const Bandcontest = () => {
     return(
-        <>
+        <div id="bandcontest">
             <Section 
                 title={'BANDCONTEST 2025'} 
                 content={
@@ -12,6 +12,6 @@ export const Bandcontest = () => {
                     </div>
                 }
             />
-        </>
+        </div>
     )
 }

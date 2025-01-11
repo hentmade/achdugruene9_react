@@ -3,7 +3,7 @@ import { Section } from "../../common/Section"
 
 export const Infos = () => {
     return(
-        <>
+        <div id="infos">
             <Section 
                 title={'INFOS'} 
                 content={
@@ -12,6 +12,6 @@ export const Infos = () => {
                     </div>
                 }
             />
-        </>
+        </div>
     )
 }
